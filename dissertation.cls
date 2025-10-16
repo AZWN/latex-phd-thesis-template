@@ -591,11 +591,9 @@
 %% Subsubsections are preceded by an empty line and do not appear in the table of contents.
 \titlespacing{\subsubsection}{0pt}{\bigskipamount}{0pt}
 
-%% Color the bullets of the itemize environment and make the symbol of the third
-%% level a diamond instead of an asterisk.
+%% Color the bullets of the itemize environment.
 \renewcommand*\labelitemi{\color{black}\textbullet}
 \renewcommand*\labelitemii{\color{black}--}
-\renewcommand*\labelitemiii{\color{black}$\diamond$}
 \renewcommand*\labelitemiv{\color{black}\textperiodcentered}
 
 \newcommand\printtitle{%
